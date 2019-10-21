@@ -41,24 +41,20 @@ So that I can see how many posts i have done
 
 # AceBook
 
-*** HEROKU setup instructions ***
+*** HEROKU admin instructions ***
 
 To install Heroku, use brew : brew tap heroku/brew && brew install heroku
 
 Log in by typing 'heroku login -i' on terminal.
 
 
-REQUIRED INSTRUCTIONS:
+## Running this Project ##
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+This project has been split into two parts
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+1) A Rails front end and back end which can be run from this project using the quickstart instructions below.  Please note we are starting the server on port 2000 because the React app runs on port 3000.  You can also see this app from Heroku with the following link : https://hidden-ocean-16005.herokuapp.com
 
-2. The card wall is here: <please update>
-
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+2) A completely seperate React front end, which can be found in this repository : https://github.com/irafaelasilva/acebook-react-agil
 
 ## Quickstart
 
@@ -71,7 +67,7 @@ First, clone this repository. Then:
 > bin/rails db:migrate
 
 > bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+> bin/rails server -p 2000 # Start the server at localhost:2000
 
 ```
 Split out back end
