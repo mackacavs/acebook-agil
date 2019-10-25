@@ -70,4 +70,3 @@ First, clone this repository. Then:
 > bin/rails server -p 2000 # Start the server at localhost:2000
 
 ```
-Split out back end
