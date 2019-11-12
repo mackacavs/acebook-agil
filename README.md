@@ -96,6 +96,10 @@ In order to get the application running locally firstly clone the repository the
 > bin/rails db:drop # Only needed if the database has changed since the app was last installed
 > bin/rails db:create
 > bin/rails db:migrate
-
-> bin/rails server -p 2000 # Start the server at localhost:2000
+> bin/rails server -p 2000
 ```
+
+Tests
+-----
+
+After bundle install has been run you will be able to run rspec to test the application. Just run rspec in your terminal to do so.
