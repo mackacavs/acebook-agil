@@ -82,33 +82,20 @@ Technologies Used
 Installation
 -----
 
-*** HEROKU admin instructions ***
-
-To install Heroku, use brew: 
-
-```
-brew tap heroku/brew 
-brew install heroku
-heroku login -i
-```
-
 This project has been split into two parts
 
-* A Ruby on Rails front end and back end which can be run from this project using the quickstart instructions below. You can also see this app from Heroku with the following link : https://hidden-ocean-16005.herokuapp.com
+* A Ruby on Rails front end and back end which can be run from this project using the quickstart instructions below. You can also see this app from Heroku with the following link
 
 * A completely seperate React front end, which can be found following this link
 
-## Quickstart
+In order to get the application running locally firstly clone the repository then write the following commands in your terminal in the relevant directory-
 
-First, clone this repository. Then:
 
-```bash
+```
 > bundle install
 > bin/rails db:drop # Only needed if the database has changed since the app was last installed
 > bin/rails db:create
 > bin/rails db:migrate
 
-> bundle exec rspec # Run the tests to ensure it works
 > bin/rails server -p 2000 # Start the server at localhost:2000
-
 ```
