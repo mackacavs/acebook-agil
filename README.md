@@ -55,7 +55,7 @@ So that I can see how many posts i have done
 
 How the backend was consumed in an API to be used alongside any front-end
 
-<img src="images/ERB_view.png?" width="400px">
+<img src="images/ERB_View.png?" width="400px">
 
 The front-end code using ERB
 
@@ -63,19 +63,30 @@ The front-end code using ERB
 
 30 passing tests covering our backend
 
-
 <img src="images/user_controller.png?" width="400px">
 
 The Controller for the Users
 
-# AceBook
+Technologies Used
+-----
+
+* Ruby on Rails
+  * The project was built using Ruby On Rails and this built our MVC pattern
+* Postgres
+  * We used the postgresSQL database to persist our data as it was added
+* Heroku
+  * Our site was hosted by heroku. It can be visited here
+* RSpec
+  * We used Rspec as our testing framework
+
+Installation
+-----
 
 *** HEROKU admin instructions ***
 
 To install Heroku, use brew : brew tap heroku/brew && brew install heroku
 
 Log in by typing 'heroku login -i' on terminal.
-
 
 ## Running this Project ##
 
