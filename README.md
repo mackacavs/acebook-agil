@@ -84,17 +84,19 @@ Installation
 
 *** HEROKU admin instructions ***
 
-To install Heroku, use brew : brew tap heroku/brew && brew install heroku
+To install Heroku, use brew: 
 
-Log in by typing 'heroku login -i' on terminal.
-
-## Running this Project ##
+```
+brew tap heroku/brew 
+brew install heroku
+heroku login -i
+```
 
 This project has been split into two parts
 
-1) A Rails front end and back end which can be run from this project using the quickstart instructions below.  Please note we are starting the server on port 2000 because the React app runs on port 3000.  You can also see this app from Heroku with the following link : https://hidden-ocean-16005.herokuapp.com
+* A Ruby on Rails front end and back end which can be run from this project using the quickstart instructions below. You can also see this app from Heroku with the following link : https://hidden-ocean-16005.herokuapp.com
 
-2) A completely seperate React front end, which can be found in this repository : https://github.com/irafaelasilva/acebook-react-agil
+* A completely seperate React front end, which can be found following this link
 
 ## Quickstart
 
