@@ -63,9 +63,6 @@ The front-end code using ERB
 
 30 passing tests covering our backend
 
-<img src="images/tests_2.png?" width="400px">
-
-Tests relating to the Menu Class
 
 <img src="images/user_controller.png?" width="400px">
 
