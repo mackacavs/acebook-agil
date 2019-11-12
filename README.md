@@ -1,9 +1,9 @@
 Acebook
 ==================
 
-Acebook is a Facebook clone - built using Ruby on Rails as our back-end and with two seperate front-ends - one you'll find in this repo using erb files and one here using React.
+Acebook is a Facebook clone - built using Ruby on Rails as our back-end and with two seperate front-ends - one you'll find in this repo using erb to display our front-end.
 
-Further to the above user stories we were set the task of consuming the back-end in a RESTFUL api and making it available and accessible to different front-ends. In this repo you'll find our API as well as our front-end created in Ruby and [here](https://github.com/mackacavs/acebook-react-agil) you'll find our React front-end.
+Further to the above we were set the task of consuming the back-end in a RESTFUL api and making it available and accessible to different front-ends. In this repo you'll find our API as well as our front-end created in Ruby and [here](https://github.com/mackacavs/acebook-react-agil) you'll find our React front-end.
 
 Features
 -----
