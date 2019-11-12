@@ -3,7 +3,7 @@ Acebook
 
 Acebook is a Facebook clone - built using Ruby on Rails as our back-end and with two seperate front-ends - one you'll find in this repo using erb files and one here using React.
 
-Further to the above user stories we were set the task of consuming the back-end in a RESTFUL api and making it available and accessible to different front-ends. In this repo you'll find our API as well as our front-end created in Ruby and here(link) you'll find our React front-end.
+Further to the above user stories we were set the task of consuming the back-end in a RESTFUL api and making it available and accessible to different front-ends. In this repo you'll find our API as well as our front-end created in Ruby and [here](https://github.com/mackacavs/acebook-react-agil) you'll find our React front-end.
 
 Features
 -----
@@ -84,12 +84,11 @@ Installation
 
 This project has been split into two parts
 
-* A Ruby on Rails front end and back end which can be run from this project using the quickstart instructions below. You can also see this app from Heroku with the following link
+* A Ruby on Rails front end and back end which can be run from this project using the quickstart instructions below. You can also see this app from Heroku with the following link: https://hidden-ocean-16005.herokuapp.com
 
-* A completely seperate React front end, which can be found following this link
+* A completely seperate React front end, which can be found following this link: https://secret-lake-91806.herokuapp.com
 
-In order to get the application running locally firstly clone the repository then write the following commands in your terminal in the relevant directory-
-
+In order to get the application running locally, firstly clone the repository then write the following commands in your terminal in the relevant directory-
 
 ```
 > bundle install
